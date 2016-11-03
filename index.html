@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>OF2016 Video</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+                    <h1>OpenFest 2016</h1>
+                    <h2>Infrastructure review</h2>
+                    <h2>Team Video</h2>
+                </section>
+
+                <section>
+                    <h2>В цифри</h2>
+                    <ul>
+                        <li>2 зали (и половина)</li>
+                        <li>6 камери</li>
+                        <li>174 метра SDI</li>
+                        <li>150 метра XLR</li>
+                        <li>126 метра захранване</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Зала България</h2>
+                    <table>
+                        <thead>
+                            <th>Stream</th>
+                            <th>Bitrate</th>
+                        </thead>
+                        <tbody>
+                            <tr> 
+                                <td>Локален</td>
+                                <td>5 Mbps</td>
+                            </tr>
+                            <tr> 
+                                <td>1080p външен</td>
+                                <td>3 Mbps</td>
+                            </tr>
+                            <tr> 
+                                <td>720p външен</td>
+                                <td>1.5 Mbps</td>
+                            </tr>
+                            <tr> 
+                                <td>480 външен</td>
+                                <td>0.7 Mbps</td>
+                            </tr>
+                            <tr> 
+                                <td>Общо</td>
+                                <td>10.2 Mbps</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section data-background-image="img/chamber-hall.png" data-background-size="contain">
+                </section>
+
+                <section data-background-image="img/hall-bg.png" data-background-size="contain">
+                </section>
+
+                <section>
+                    <h2>Снимки, снимки, снимки...</h2>
+                </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
